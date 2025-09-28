@@ -1,0 +1,22 @@
+
+body {
+  background-color: rgb(11, 26, 51);
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.nav_bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_bar .nav_items{
+  padding: 16px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.nav_bar .nav_items:hover{
+  border-bottom: 3px solid yellow;
+}
